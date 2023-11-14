@@ -1,0 +1,165 @@
+*, *:before, *:after{ /*Esto hace que no cambie el tamaño de las cajas*/
+    box-sizing: inherit;
+} 
+
+:root {
+
+    /* Primary */
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+    
+   /* Neutral */
+    
+    --TransparentWhite: hsla(0, 0%, 100%, 0.75);
+    /* Paragraphs */
+    --VeryLightGray: hsl(0, 0%, 95%);
+    /* background, headings, buttons */
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+/*
+Desktop:
+Contenedor general: 921px x 501px
+card: 307px x 501px
+*/
+
+.contenedor {
+    width: 921px;
+    height: 501px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+}
+
+
+
+.icons{
+    margin: 5rem 6rem;
+    padding-top: 4rem;
+}
+.card1 {
+    width: 307px;
+    height: 501px;
+    background-color: var(--BrightOrange);
+    border-radius: 1rem 0 0 1rem;
+}
+.card1 h1 {
+    text-transform: uppercase;
+    color: var(--VeryLightGray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin: 5rem 6rem;
+}
+.card1 p {
+    color: var(--TransparentWhite);
+    margin: 5rem 6rem;
+    text-align: start;
+}
+
+.card2 {
+    width: 307px;
+    height: 501px;
+    background-color: var(--DarkCyan);
+}
+.card2 h1 {
+    text-transform: uppercase;
+    color: var(--VeryLightGray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin: 5rem 6rem;
+}
+.card2 p {
+    color: var(--TransparentWhite);
+    margin: 5rem 6rem;
+    text-align: start;
+    margin: 5rem 6rem;
+}
+
+.card3 {
+    width: 307px;
+    height: 501px;
+    background-color: var(--VeryDarkCyan);
+    border-radius: 0 1rem 1rem 0;
+}
+.card3 h1 {
+    text-transform: uppercase;
+    color: var(--VeryLightGray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin: 5rem 6rem;
+}
+.card3 p {
+    color: var(--TransparentWhite);
+    margin: 5rem 6rem;
+    text-align: start;
+    margin: 5rem 6rem;
+}
+.boton{
+    margin: 5rem 6rem;
+}
+.btn1 {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: none;
+    color: var(--BrightOrange);
+    cursor: pointer;
+}
+.btn1:hover {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: solid 0.1rem var(--VeryLightGray);
+    background-color: var(--BrightOrange);
+    color: var(--VeryLightGray);
+    cursor: pointer;
+}
+.btn2 {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: none;
+    color: var(--DarkCyan);
+    cursor: pointer;
+}
+.btn2:hover {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: solid 0.1rem var(--VeryLightGray);
+    background-color: var(--DarkCyan);
+    color: var(--VeryLightGray);
+    cursor: pointer;
+}
+.btn3 {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: none;
+    color: var(--VeryDarkCyan);
+    cursor: pointer;
+}
+.btn3:hover {
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border: solid 0.1rem var(--VeryLightGray);
+    background-color: var(--VeryDarkCyan);
+    color: var(--VeryLightGray);
+    cursor: pointer;
+}
