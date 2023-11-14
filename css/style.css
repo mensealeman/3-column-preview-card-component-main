@@ -47,12 +47,17 @@ card: 307px x 501px
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
+    justify-content: center;
+   align-items: center;
 }
 
-
+.cards {
+    height: 501px;
+}
 
 .icons{
     margin: 5rem 6rem;
+    margin-top: 0rem;
     padding-top: 4rem;
 }
 .card1 {
